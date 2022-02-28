@@ -150,10 +150,10 @@ function Form() {
                   </select>
                 </div> )  }
         </div>
+        <br />
         <input type="checkbox" id ="checkbox" />
-        <span className="politica">
-          Acepto la política de Tratamiento de datos personales
-        </span>
+        <span className="politica">{" "}
+          Acepto la política de <a  href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fwww.ssangyong.com.co%2Fwp-content%2Fuploads%2F2020%2F08%2FPTDP-SSANGYONG-MOTOR-COLOMBIA.pdf&clen=158503&chunk=true" >Tratamiento de datos personales</a></span>
         <br />
         <br />
         <input   name ="enviar" className="button" type="submit" value="Enviar datos" />
