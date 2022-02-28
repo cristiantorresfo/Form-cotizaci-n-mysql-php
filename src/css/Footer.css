@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4.25rem;
+}
+
+.footer img{
+    width: 21.875rem;
+    height: 8.625rem;
+    margin-bottom: 2.25rem;
+}
+
+.footer p{
+    font-size: 0.875rem;
+    text-align: center;
+    color: #9F9F9F;
+    margin-bottom: 2.25rem;
+}
+
+.info-footer{
+    margin-top: 3.125rem;
+    width: 95%;
+    padding: 0rem 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}

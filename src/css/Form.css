@@ -1,0 +1,44 @@
+.form {
+font-family:sans-serif;
+margin-top: 4.375rem;
+margin-right: 2.75rem;
+width: 28.5rem;
+height: 39.375rem;
+text-align: left;
+padding: 2.5rem;
+background-color: #F4F4F4;
+border-radius: 3%;
+font-size: 1.2rem;
+}
+
+.ubicacion-container{
+    display: flex;
+    
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    padding: 0.1875rem;
+    width: 100%;
+}
+
+.border-radius {
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.politica{
+    font-size: 1rem;
+}
+
+.button{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+}
+.form label{
+    margin-bottom: 0.3125rem;
+}

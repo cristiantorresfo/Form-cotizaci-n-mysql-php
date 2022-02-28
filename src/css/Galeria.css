@@ -1,0 +1,33 @@
+.galeria{
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 3.5rem;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12.4375rem;
+}
+
+.galeria-container{
+    margin-top: 5.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-container img{
+    width: 33.3%;
+}
+
+@media screen and (max-width:864px){
+    .galeria-container img{
+        width: 50%;
+    }
+}
+@media screen and (max-width:464px){
+    .galeria-container img{
+        width: 100%;
+    }
+}
